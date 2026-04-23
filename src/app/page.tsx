@@ -331,7 +331,7 @@ function Footer() {
             利用規約
           </a>
           <a
-            href="mailto:support@afua.co.jp"
+            href="mailto:support@dot-mind.com"
             className="hover:text-foreground transition-colors"
           >
             お問い合わせ

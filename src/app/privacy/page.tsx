@@ -175,7 +175,7 @@ export default function PrivacyPolicy() {
             </p>
             <div className="bg-surface rounded-2xl border border-border p-6">
               <p className="font-semibold mb-1">アフア合同会社</p>
-              <p className="text-muted text-sm">メール: support@afua.co.jp</p>
+              <p className="text-muted text-sm">メール: support@dot-mind.com</p>
               <p className="text-muted text-sm">
                 ウェブサイト: https://www.afua.co.jp
               </p>
