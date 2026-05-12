@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "DotMind — dot journal meets AI assistant",
   description:
-    "手書きのようなバレットジャーナルとAIアシスタントが融合。タスク管理、ジャーナリング、振り返りをひとつのアプリで。",
+    "バレット（記号）で思考を整理するドットジャーナルとAIアシスタントが融合。タスク管理、ジャーナリング、振り返りをひとつのアプリで。",
   openGraph: {
     title: "DotMind — dot journal meets AI assistant",
     description:
-      "手書きのようなバレットジャーナルとAIアシスタントが融合。タスク管理、ジャーナリング、振り返りをひとつのアプリで。",
+      "バレット（記号）で思考を整理するドットジャーナルとAIアシスタントが融合。タスク管理、ジャーナリング、振り返りをひとつのアプリで。",
     url: "https://dot-mind.com",
     siteName: "DotMind",
     locale: "ja_JP",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "DotMind — dot journal meets AI assistant",
     description:
-      "手書きのようなバレットジャーナルとAIアシスタントが融合。",
+      "バレット（記号）で思考を整理するドットジャーナルとAIアシスタントが融合。",
   },
 };
 

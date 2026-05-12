@@ -51,7 +51,7 @@ function Hero() {
           <span className="text-primary">meets AI assistant</span>
         </h1>
         <p className="text-lg text-muted max-w-xl mx-auto leading-relaxed mb-10">
-          手書きのようなバレットジャーナルとAIアシスタントが融合。
+          バレット（記号）で思考を整理するドットジャーナルとAIアシスタントが融合。
           <br />
           タスク管理、ジャーナリング、振り返りをひとつのアプリで。
         </p>
@@ -115,9 +115,9 @@ function BulletShowcase() {
 function Features() {
   const features = [
     {
-      title: "バレットジャーナル",
+      title: "ドットジャーナル",
       description:
-        "手書きのような直感的な操作でタスク、イベント、メモを管理。バレットジャーナルの手法をデジタルで再現。",
+        "バレット（記号）を使った直感的な操作でタスク、イベント、メモを管理。手書きの手法をデジタルで再現。",
       icon: (
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
@@ -168,7 +168,7 @@ function Features() {
     {
       title: "マイグレーション",
       description:
-        "未完了タスクを次の日や月に簡単に移行。バレットジャーナルの伝統的なワークフローをサポート。",
+        "未完了タスクを次の日や月に簡単に移行。ドットジャーナルの伝統的なワークフローをサポート。",
       icon: (
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <polyline points="9 18 15 12 9 6" />
