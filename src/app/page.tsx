@@ -280,7 +280,7 @@ function Download() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://apps.apple.com"
+            href="https://apps.apple.com/jp/app/dotmind/id6760173596"
             className="inline-flex items-center gap-3 bg-foreground text-surface px-8 py-4 rounded-2xl font-semibold hover:opacity-90 transition-opacity"
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
@@ -292,7 +292,7 @@ function Download() {
             </div>
           </a>
           <a
-            href="https://play.google.com"
+            href="https://play.google.com/store/apps/details?id=com.afua.starling"
             className="inline-flex items-center gap-3 bg-foreground text-surface px-8 py-4 rounded-2xl font-semibold hover:opacity-90 transition-opacity"
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
