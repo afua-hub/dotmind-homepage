@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -11,7 +12,7 @@ export default function PrivacyPolicy() {
     <>
       <header className="fixed top-0 left-0 right-0 z-50 bg-surface/80 backdrop-blur-md border-b border-border">
         <div className="max-w-3xl mx-auto px-6 h-16 flex items-center">
-          <a href="/" className="flex items-center gap-3">
+          <Link href="/" className="flex items-center gap-3">
             <Image
               src="/app-icon.png"
               alt="DotMind"
@@ -22,7 +23,7 @@ export default function PrivacyPolicy() {
             <span className="text-lg font-semibold text-foreground tracking-tight">
               DotMind
             </span>
-          </a>
+          </Link>
         </div>
       </header>
 

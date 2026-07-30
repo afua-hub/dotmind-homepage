@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ContactPage() {
   const [form, setForm] = useState({ email: "", message: "" });
@@ -43,7 +44,7 @@ export default function ContactPage() {
     <>
       <header className="fixed top-0 left-0 right-0 z-50 bg-surface/80 backdrop-blur-md border-b border-border">
         <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-3">
+          <Link href="/" className="flex items-center gap-3">
             <Image
               src="/app-icon.png"
               alt="DotMind"
@@ -54,7 +55,7 @@ export default function ContactPage() {
             <span className="text-lg font-semibold text-foreground tracking-tight">
               DotMind
             </span>
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -91,12 +92,12 @@ export default function ContactPage() {
               <p className="text-muted text-sm">
                 お問い合わせありがとうございます。内容を確認の上、ご連絡いたします。
               </p>
-              <a
+              <Link
                 href="/"
                 className="inline-block mt-6 text-sm text-primary hover:underline"
               >
                 トップページに戻る
-              </a>
+              </Link>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
