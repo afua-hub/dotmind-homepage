@@ -46,7 +46,7 @@ function Hero() {
         <div className="mb-8">
           <Image
             src="/app-icon.png"
-            alt="DotMind — バレットジャーナル × AI アプリ"
+            alt="DotMind — ドットジャーナル × AI アプリ"
             width={96}
             height={96}
             className="mx-auto rounded-3xl shadow-lg"

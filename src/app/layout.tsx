@@ -16,17 +16,17 @@ const geistMono = Geist_Mono({
 });
 
 const siteUrl = "https://dot-mind.com";
-const title = "DotMind — バレットジャーナル × AI | dot journal meets AI assistant";
+const title = "DotMind — ドットジャーナル × AI | dot journal meets AI assistant";
 const description =
-  "バレット（記号）で思考を整理するドットジャーナル（バレットジャーナル）とAIアシスタントが融合したiOS / Androidアプリ。タスク管理・習慣トラッキング・AIふりかえりに加え、10年後のビジョンを言語化するビジョンコーチングまでひとつのアプリで。";
+  "バレット（記号）で思考を整理するドットジャーナルとAIアシスタントが融合したiOS / Androidアプリ。タスク管理・習慣トラッキング・AIふりかえりに加え、10年後のビジョンを言語化するビジョンコーチングまでひとつのアプリで。";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title,
   description,
   keywords: [
-    "バレットジャーナル アプリ",
-    "ドットジャーナル",
+    "ドットジャーナル アプリ",
+    "箇条書き ノート術",
     "AI タスク管理",
     "習慣トラッキング",
     "ジャーナリング アプリ",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "DotMind — バレットジャーナル × AI アプリ",
+        alt: "DotMind — ドットジャーナル × AI アプリ",
       },
     ],
   },
