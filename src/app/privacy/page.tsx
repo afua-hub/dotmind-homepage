@@ -79,6 +79,44 @@ export default function PrivacyPolicy() {
               音声入力機能をご利用の場合、音声データは Deepgram
               社の音声認識サービスに送信され、テキストに変換されます。音声データは変換処理後に破棄され、当社のサーバーには保存されません。
             </p>
+
+            <h3 className="font-semibold mt-6 mb-2">
+              6. Google カレンダーの予定
+            </h3>
+            <p className="text-muted leading-relaxed">
+              Google
+              カレンダーと連携した場合に限り、設定で選んだカレンダーの予定のタイトルと日時を
+              Google
+              から読み取ります（読み取り専用で、予定の作成・変更・削除は行いません）。読み取った予定は本アプリの画面に表示するためだけに使い、アプリの起動中に端末のメモリへ一時的に置くのみで、端末への保存、当社のサーバーへの送信・保存は行わず、データを保持しません。広告への利用、第三者への提供も行いません。Google
+              Workspace API（Google Calendar API
+              を含みます）を介して取得したユーザーデータを、一般的（汎用的）な
+              AI / ML（人工知能・機械学習）モデルの開発、改善、またはトレーニングの目的で保持または使用することは一切ありません。本アプリの
+              AI
+              アシスタント機能（テキスト分析、自動分類、レポート生成等）にカレンダーから読み取った情報を送信・入力することもありません。連携は設定画面からいつでも解除できます。解除またはログアウトの際には
+              Google
+              側の許可の取り消しも行います（通信できない場合などで取り消せなかったときは、Google
+              アカウントの設定からも取り消せます）。本アプリが Google API
+              から受け取った情報の使用は、限定的使用（Limited
+              Use）の要件を含む Google API
+              サービスのユーザーデータに関するポリシーに従います。
+            </p>
+            <p className="text-muted leading-relaxed mt-3">
+              DotMind&apos;s use of information received from Google APIs
+              adheres to the{" "}
+              <a
+                href="https://developers.google.com/terms/api-services-user-data-policy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-foreground"
+              >
+                Google API Services User Data Policy
+              </a>
+              , including the Limited Use requirements. DotMind does not
+              retain user data obtained through Google Workspace APIs
+              (including the Google Calendar API), and does not use any data
+              obtained through Google Workspace APIs to develop, improve, or
+              train generalized (non-personalized) AI and/or ML models.
+            </p>
           </section>
 
           <section className="mb-10">
@@ -96,6 +134,7 @@ export default function PrivacyPolicy() {
               <li>アプリのパフォーマンス分析および品質改善</li>
               <li>ユーザーサポートへの対応</li>
               <li>利用規約違反への対応</li>
+              <li>Google カレンダーの予定のアプリ内表示（連携した場合のみ）</li>
             </ul>
           </section>
 
@@ -128,6 +167,10 @@ export default function PrivacyPolicy() {
               </li>
               <li>Deepgram, Inc. — 音声認識</li>
               <li>Anthropic, PBC — AI テキスト分析</li>
+              <li>
+                Google Calendar API（Google LLC）—
+                予定の読み取り（連携した場合のみ）
+              </li>
             </ul>
           </section>
 
@@ -185,7 +228,7 @@ export default function PrivacyPolicy() {
 
           <div className="text-sm text-muted border-t border-border pt-6">
             <p>制定日: 2025年1月1日</p>
-            <p>最終更新日: 2026年4月17日</p>
+            <p>最終更新日: 2026年10月26日</p>
           </div>
         </article>
       </main>
